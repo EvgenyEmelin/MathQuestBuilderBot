@@ -1,3 +1,5 @@
+#Данный файл является примером и тестом API запроса, для дальнейшей обработки в handler
+#This file is an example and test of an API request for further processing in the handler
 import json
 import xml.etree.ElementTree as ET
 import requests
@@ -5,9 +7,9 @@ import requests
 url = 'http://147.45.158.61:9999/get_tasks'
 data = [
     {
-        'uuid': "0c2f20c6-9191-41da-14e7-5e858bbb7fd7",
+        'uuid': "d53761d3-4270-4af4-5f21-b7caaa4efb43",
             'count': 1,
-            'topic': "Определитель с переменной x"
+            'topic': "СЛУ 3х3"
     }
 ]
 

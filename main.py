@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from app.handlers_matrix import router
+from app.handlers import router
 import json
 from dotenv import load_dotenv
 import os
