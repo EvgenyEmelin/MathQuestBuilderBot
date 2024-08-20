@@ -3,8 +3,11 @@ import logging
 from aiogram import Bot, Dispatcher
 from app.handlers_matrix import router
 import json
+from dotenv import load_dotenv
+import os
 
-bot = Bot('7066267859:AAH-MwiMZYbs7FgeW-nbNohNlpd2tylH4P0')
+load_dotenv()
+bot = Bot(token=os.getenv('TOKEN'))
 dp = Dispatcher()
 
 
